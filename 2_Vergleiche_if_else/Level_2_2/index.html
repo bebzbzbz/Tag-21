@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Vergleiche if/else</title>
+</head>
+<body>
+    <section>
+        <p>Luftqualität: <span id="status"></span></p>
+        <form>
+            <input type="range" min="0" max="150" step="1" id="quality" onclick="checkAirQuality();">
+        </form>
+        <h3 id="health-concern"></h3>
+        <h3 id="health-effect"></h3>
+    </section>
+</body>
+</html>

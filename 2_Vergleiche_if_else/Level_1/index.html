@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Vergleiche if/else</title>
+</head>
+<body>
+    <section>
+        <h2>Level 1_1</h2>
+        <form onsubmit="adult(); return false">
+            <input type="number" min="0" step="1" id="age">
+            <input type="submit" value="Check">
+        </form>
+        <p id="ageCheck"></p>
+    </section>
+    <hr>
+    <section>
+        <h2>Level 1_2</h2>
+        <h3>Wetterqualität</h3>
+        <form onsubmit="weather(); return false">
+            <input type="number" min="0" max="10" step="1" id="rating">
+            <input type="submit">
+        </form>
+        <p id="review"></p>
+    </section>
+    <hr>
+    <section>
+        <h2>Level 1_3</h2>
+        <form onsubmit="shisha(); return false">
+            <label for="age">Geben Sie Ihr Alter ein</label>
+            <input type="number" id="shishaAge">
+            <input type="submit" value="Check">
+        </form>
+        <p id="shishaOderNicht"></p>
+    </section>
+</body>
+</html>
